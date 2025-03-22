@@ -2,28 +2,33 @@ import React from 'react'
 
 export const Testimonial = () => {
   return (
-    <div id= "testimonial">
-        <h2>Testimonial</h2>
+    <div id="testimonial">
+      <h2>Testimonial</h2>
 
-        <section>
-            <TestimonialCard  
-            name= {"Aarti"} 
-            feedback= {"Discussion is well"}/>
+      <section>
+        <TestimonialCard
+          name={"Aarti"}
+          feedback={
+            "MERN Stack Web Developer | Expertise in Three.js GLB Rendering, Angular, TypeScript & More."
+          }
+        />
 
+        <TestimonialCard
+          name={"Chandan Kumar"}
+          feedback={
+            " Lead Software Engineer at Mindtree, specializes in cybersecurity solutions. delivering secure and scalable web solutions."
+          }
+        />
 
-<TestimonialCard  
-            name= {"Chandan Kumar"} 
-            feedback= {" I'm aware that, You are very rare !"}/>
-
-
-<TestimonialCard  
-            name= {"Krishna kumar"} 
-            feedback= {"A good dot net developer!"}/>
-
-
-        </section>
+        <TestimonialCard
+          name={"Krishna kumar"}
+          feedback={
+            "2.5 years of experience in .NET development. Together, we bring expertise across MERN stack, Three.js, Angular, TypeScript."
+          }
+        />
+      </section>
     </div>
-  )
+  );
 }
 
 const TestimonialCard = ({name , feedback}) => {

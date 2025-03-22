@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import { animate, motion } from "framer-motion";
 import TypeWriter from "typewriter-effect";
 import { BsArrowUpRight , BsChevronDown } from "react-icons/bs";
-import me from "../assets/pics.png";
+import me from "../assets/meak.png";
 
 
 export const Home = () => {
@@ -10,7 +10,7 @@ export const Home = () => {
   const projectCount = useRef(null);
 
   const animationClientsCount = () =>{
-    animate(0, 100,{
+    animate(0, 10,{
       duration:1,
       onUpdate:(v)=> (clientCount.current.textContent = v.toFixed())
     })
@@ -18,7 +18,7 @@ export const Home = () => {
 
   
   const animationProjectCount = () =>{
-    animate(0, 500,{
+    animate(0, 50,{
       duration:1,
       onUpdate:(v)=> (projectCount.current.textContent = v.toFixed())
     })
@@ -58,7 +58,7 @@ export const Home = () => {
 
           <TypeWriter
             options={{
-              strings: ["A Developer", "A Designer", "A Programmer"],
+              strings: ["A Full stack Developer","A NodeJs Developer", "A ReactJs Developer", "A ThreeJs Developer" , "A Typescript Developer", "A Angular Developer"],
               autoStart: true,
               cursor: "",
               loop: true,
