@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import { animate, motion } from "framer-motion";
 import TypeWriter from "typewriter-effect";
 import { BsArrowUpRight , BsChevronDown } from "react-icons/bs";
-import me from "../assets/tree.jpeg";
+import me from "../assets/portfolio.jpeg";
 
 
 export const Home = () => {
