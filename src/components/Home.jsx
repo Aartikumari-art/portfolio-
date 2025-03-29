@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import { animate, motion } from "framer-motion";
 import TypeWriter from "typewriter-effect";
 import { BsArrowUpRight , BsChevronDown } from "react-icons/bs";
-import me from "../assets/meak.png";
+import me from "../assets/tree.jpeg";
 
 
 export const Home = () => {
@@ -58,7 +58,7 @@ export const Home = () => {
 
           <TypeWriter
             options={{
-              strings: ["A Full stack Developer","A NodeJs Developer", "A ReactJs Developer", "A ThreeJs Developer" , "A Typescript Developer", "A Angular Developer"],
+              strings: ["A MERN stack Developer","A NodeJs Developer", "A ReactJs Developer", "A ThreeJs Developer" , "A Typescript Developer", "A Angular Developer"],
               autoStart: true,
               cursor: "",
               loop: true,
